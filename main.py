@@ -27,10 +27,10 @@ def predict():
     Y is Latitude, X is Longitude
     :return:
     """
-    x1 = -7.182288
-    x2 = -6.515598
-    y2 = 41.992531
-    y1 = 41.732416
+    x1 = 0.491639
+    x2 = 0.239003
+    y2 = 101.050519
+    y1 = 101.490085
     dates = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     c = list(map(float, request.args.get('c')[1:-1].split(",")))
     now = datetime.datetime.now()
