@@ -48,7 +48,7 @@ def predict():
     Y = int(delta_y/y_p)
     print(X, Y)
     url = "http://api.openweathermap.org/data/2.5/weather?lat={}&" \
-          "lon={}&appid=997248ab2a9c56c05cf48c93efca9b27".format(c[0], c[1])
+          "lon={}&appid=a976ca5bd1c0d8a9657c10e14f15e11e".format(c[0], c[1])
 
     j = json.load(urllib.request.urlopen(url))
     temp = 0
